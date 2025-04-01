@@ -1,0 +1,8 @@
+.env
+.user.ini
+ftp-config.json
+config/env.php
+vendor
+logs/*
+*.log
+!.gitkeep
