@@ -38,7 +38,10 @@ Logo文件一般有favicon、logo、apply touch icon等形式以及其颜色、�
  - apply touch icon 为苹果相关应用下的展示图标，命名为“apple-touch-icon(-{width}x{height}){.ext}”，例如：apple-touch-icon-114x114.png。
  - 其他logo图片等，命名为“{name}(-{width}x{height}){.ext}”或者“{name}(@{rate}){.ext}”，例如：safari-pinned-tab.svg、apple-touch-icon-precomposed.png。
  
-## 4.属性描述
+## 4.Logo尺寸限制
+目前暂时限定宽高不要超过800x600，文件大小不要超过100KB。后续视情况而定。
+
+## 5.属性描述
 使用logo文件夹下的package.json来描述该logo和所属网站的基本信息。结构与npm包描述文件package.json类似，但只包含以下字段信息：
  - name - 域名或别名，必填
  - title - 网站标题，可为空
@@ -49,5 +52,6 @@ Logo文件一般有favicon、logo、apply touch icon等形式以及其颜色、�
 
 可参考本项目根目录下的package.sample.json文件。
 
-## 5.支持网站域名 
+## 6.支持网站域名 
 为了使添加的logo有较高的质量和较长的活跃度，我们限制了域名类型。目前暂时仅限.com、.net、.org、.cn、.com.cn、.dev等域名类型的网站加入。比较出名的网站，或者有特别需要的网站，可申请加入。
+
