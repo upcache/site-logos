@@ -1,0 +1,13 @@
+{
+  "name": "jquery",
+  "title": "jQuery",
+  "description": "JavaScript library for DOM operations",
+  "version": "20250401",
+  "homepage": "https://jquery.com",
+  "keywords": [
+    "jquery",
+    "javascript",
+    "browser",
+    "library"
+  ]
+}
